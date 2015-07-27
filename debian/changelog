@@ -1,5 +1,5 @@
-ruby-celluloid-pool (0.20.0-1) UNRELEASED; urgency=medium
+ruby-celluloid-pool (0.20.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #793810)
 
- -- Balasankar C <balasankarc@autistici.org>  Mon, 27 Jul 2015 23:39:56 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 27 Jul 2015 23:25:40 +0530

@@ -14,7 +14,6 @@ Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-celluloid-pool.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-celluloid-pool.git
 Homepage: http://github.com/celluloid/celluloid-pool
-Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-celluloid-pool
@@ -28,5 +27,10 @@ Depends: bundler,
          ruby-timers (>= 4.0.0),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: An implementation of an actor pool, based on the Celluloid concurrent object framework.
- An implementation of an actor pool, based on the Celluloid concurrent object framework.
+Breaks: ruby-celluloid (<< 0.17~)
+Replaces: ruby-celluloid (<< 0.17~) 
+Description: actor pool based on Celluloid
+ This gem provides an implementation of an actor pool, based on the Celluloid.
+ Celluloid is an actor-based concurrent object framework for Ruby. Celluloid 
+ provides a simple and natural way to build fault-tolerant concurrent programs 
+ in Ruby
